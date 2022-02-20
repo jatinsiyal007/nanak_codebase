@@ -1,0 +1,23 @@
+<!DOCTYPE html> 
+<html> 
+<body> 
+
+<button onclick="getCurTime()" type="button">Get current time position</button><br> 
+
+<video width="320" height="176" autoplay controls>
+  <source src="./videos/TATA-NANAK-FOUNDATION-IIMC.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+
+<script>
+var vid = document.getElementById("myVideo");
+
+function getCurTime() { 
+  alert(vid.currentTime);
+} 
+</script>
+
+
+</body> 
+</html>
